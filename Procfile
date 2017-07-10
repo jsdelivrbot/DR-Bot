@@ -1,1 +1,1 @@
-web: node index.js
+wroker: node index.js
