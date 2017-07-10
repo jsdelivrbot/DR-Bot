@@ -8,7 +8,7 @@ var bot = new Discord.Client({
 
 bot.on('ready', function() {
     console.log('Logged in as %s - %s\n', bot.username, bot.id);
-});
+});.listen(process.env.PORT);
 
 bot.on('message', function(user, userID, channelID, message, event) {
     //array
