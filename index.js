@@ -105,7 +105,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
 							to: channelID,
 							message: ";;play " + people[rowIndex][tempInt]
 								});
-						bot.leaveVoiceChannel(bot.servers["249028631089643540"].members[userID].voice_channel_id);
+						//bot.leaveVoiceChannel(bot.servers["249028631089643540"].members[userID].voice_channel_id);
 					}
 				}
 				else
