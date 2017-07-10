@@ -48,7 +48,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
 
 			for(var rowIndex = 0; rowIndex < people.length && charName === "NONE FOUND"; rowIndex++)
 			{
-				if(paramArray[0] === people[rowIndex][0])
+				if(paramArray[0].toLowerCase() === people[rowIndex][0].toLowerCase())
 				{
 					charName = people[rowIndex][0];
 				}
